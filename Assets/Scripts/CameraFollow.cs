@@ -7,7 +7,7 @@ public class CameraFollow : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	
+		print("Ali is awesome");
 	}
 	
 	// Update is called once per frame

@@ -1,0 +1,126 @@
+fileFormatVersion: 2
+guid: 78cadf1359dc34e469e7447a5f16ff7b
+timeCreated: 1469304642
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SMB_World_Secret
+    21300002: SMB_World_Start
+    21300004: SMB_World_End
+    21300006: SMB_World
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 0
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Standalone
+    maxTextureSize: 4096
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: SMB_World_Secret
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 309
+        width: 258
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -129, y: 112.5}
+        - {x: -129, y: -112.5}
+        - {x: 129, y: -112.5}
+        - {x: 129, y: 112.5}
+    - name: SMB_World_Start
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 309
+        width: 255
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -127.5, y: 112.5}
+        - {x: -127.5, y: -112.5}
+        - {x: 127.5, y: -112.5}
+        - {x: 127.5, y: 112.5}
+    - name: SMB_World_End
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 311
+        width: 608
+        height: 225
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -304, y: 112.5}
+        - {x: -304, y: -112.5}
+        - {x: 304, y: -112.5}
+        - {x: 304, y: 112.5}
+    - name: SMB_World
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 3079
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -1539.5, y: 113}
+        - {x: -1539.5, y: -113}
+        - {x: 1539.5, y: -113}
+        - {x: 1539.5, y: 113}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

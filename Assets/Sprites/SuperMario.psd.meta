@@ -1,0 +1,482 @@
+fileFormatVersion: 2
+guid: 34eea9192ba9ec64caa8bafa2baa6320
+timeCreated: 1469306868
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: SuperMario_Stand
+    21300002: SuperMarioWalk_0
+    21300004: SuperMarioWalk_1
+    21300006: SuperMarioWalk_2
+    21300008: SuperMarioRunTurn
+    21300010: SuperMarioJump
+    21300012: SuperMarioDuck
+    21300014: SuperMario_7
+    21300016: SuperMario_8
+    21300018: SuperMario_9
+    21300020: SuperMario_10
+    21300022: SuperMario_11
+    21300024: SuperMario_12
+    21300026: SuperMario_13
+    21300028: SuperMario_14
+    21300030: SuperMario_15
+    21300032: SuperMario_16
+    21300034: SuperMario_17
+    21300036: SuperMario_18
+    21300038: SuperMario_19
+    21300040: SuperMario_20
+    21300042: MarioStand
+    21300044: MarioRun_0
+    21300046: MarioRun_1
+    21300048: MarioRun_2
+    21300050: MarioRunTurn
+    21300052: MarioJump
+    21300054: MarioDead
+    21300056: SuperMario_28
+    21300058: SuperMario_29
+    21300060: SuperMario_30
+    21300062: SuperMario_31
+    21300064: SuperMario_32
+    21300066: SuperMario_33
+    21300068: SuperMario_34
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Standalone
+    maxTextureSize: 256
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: SuperMario_Stand
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 99
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SuperMarioWalk_0
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 100
+        width: 16
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SuperMarioWalk_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 99
+        width: 14
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SuperMarioWalk_2
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 99
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SuperMarioRunTurn
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 98
+        width: 16
+        height: 32
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SuperMarioJump
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 99
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SuperMarioDuck
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 103
+        width: 16
+        height: 22
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SuperMario_7
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 99
+        width: 14
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SuperMario_8
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 102
+        width: 14
+        height: 27
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SuperMario_9
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 63
+        width: 14
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SuperMario_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SuperMario_11
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 64
+        width: 14
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SuperMario_12
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 64
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SuperMario_13
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 64
+        width: 16
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SuperMario_14
+      rect:
+        serializedVersion: 2
+        x: 116
+        y: 64
+        width: 16
+        height: 29
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SuperMario_15
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 66
+        width: 16
+        height: 24
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SuperMario_16
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 64
+        width: 16
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SuperMario_17
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 63
+        width: 14
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SuperMario_18
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 26
+        width: 17
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SuperMario_19
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 26
+        width: 15
+        height: 31
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SuperMario_20
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 26
+        width: 16
+        height: 30
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MarioStand
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 12
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MarioRun_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 0
+        width: 13
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MarioRun_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 11
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MarioRun_2
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 0
+        width: 15
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MarioRunTurn
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 13
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MarioJump
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 0
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: MarioDead
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 2
+        width: 14
+        height: 14
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SuperMario_28
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 0
+        width: 13
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SuperMario_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 12
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SuperMario_30
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 0
+        width: 13
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SuperMario_31
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 0
+        width: 13
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SuperMario_32
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 0
+        width: 13
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SuperMario_33
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 0
+        width: 13
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: SuperMario_34
+      rect:
+        serializedVersion: 2
+        x: 206
+        y: 0
+        width: 14
+        height: 15
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

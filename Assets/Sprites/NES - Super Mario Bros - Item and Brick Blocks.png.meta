@@ -1,0 +1,309 @@
+fileFormatVersion: 2
+guid: edd5348f05c64ca45be06dea38d69b74
+timeCreated: 1470664359
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: UGQBlock_2
+    21300002: NES - Super Mario Bros - Item and Brick Blocks_122
+    21300004: UGQBlock_1
+    21300006: NES - Super Mario Bros - Item and Brick Blocks_129
+    21300008: NES - Super Mario Bros - Item and Brick Blocks_131
+    21300010: QBlock_2
+    21300012: UGBrickDebris_TR
+    21300014: QBlock_1
+    21300016: UGQBlock_Hit
+    21300018: UGQBlock_AfterHit
+    21300020: UGBrick_1
+    21300022: UGBrickDebris_TL
+    21300024: UGBrickDebris_BL
+    21300026: UGBrickDebris_BR
+    21300028: UGBrick_HitCoin_0
+    21300030: UGBrick_AfterHitCoin
+    21300032: NES - Super Mario Bros - Item and Brick Blocks_171
+    21300034: NES - Super Mario Bros - Item and Brick Blocks_172
+    21300036: NES - Super Mario Bros - Item and Brick Blocks_173
+    21300038: NES - Super Mario Bros - Item and Brick Blocks_174
+    21300040: NES - Super Mario Bros - Item and Brick Blocks_175
+    21300042: NES - Super Mario Bros - Item and Brick Blocks_176
+    21300044: NES - Super Mario Bros - Item and Brick Blocks_177
+    21300046: QBlock_0
+    21300048: UGBrick_0
+    21300050: NES - Super Mario Bros - Item and Brick Blocks_182
+    21300052: NES - Super Mario Bros - Item and Brick Blocks_183
+    21300054: NES - Super Mario Bros - Item and Brick Blocks_184
+    21300056: NES - Super Mario Bros - Item and Brick Blocks_185
+    21300058: NES - Super Mario Bros - Item and Brick Blocks_186
+    21300060: NES - Super Mario Bros - Item and Brick Blocks_187
+    21300062: NES - Super Mario Bros - Item and Brick Blocks_188
+    21300064: NES - Super Mario Bros - Item and Brick Blocks_189
+    21300066: NES - Super Mario Bros - Item and Brick Blocks_190
+    21300068: NES - Super Mario Bros - Item and Brick Blocks_191
+    21300070: NES - Super Mario Bros - Item and Brick Blocks_192
+    21300072: NES - Super Mario Bros - Item and Brick Blocks_193
+    21300074: NES - Super Mario Bros - Item and Brick Blocks_194
+    21300076: NES - Super Mario Bros - Item and Brick Blocks_195
+    21300078: NES - Super Mario Bros - Item and Brick Blocks_196
+    21300080: NES - Super Mario Bros - Item and Brick Blocks_197
+    21300082: NES - Super Mario Bros - Item and Brick Blocks_198
+    21300084: NES - Super Mario Bros - Item and Brick Blocks_199
+    21300086: NES - Super Mario Bros - Item and Brick Blocks_200
+    21300088: NES - Super Mario Bros - Item and Brick Blocks_201
+    21300090: NES - Super Mario Bros - Item and Brick Blocks_202
+    21300092: NES - Super Mario Bros - Item and Brick Blocks_203
+    21300094: NES - Super Mario Bros - Item and Brick Blocks_204
+    21300096: UGQBlock_0
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 16
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings:
+  - buildTarget: Standalone
+    maxTextureSize: 512
+    textureFormat: -3
+    compressionQuality: 50
+    allowsAlphaSplitting: 0
+  spriteSheet:
+    sprites:
+    - name: UGQBlock_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 112
+        width: 16
+        height: 16
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UGQBlock_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 112
+        width: 16
+        height: 16
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Super Mario Bros - Item and Brick Blocks_129
+      rect:
+        serializedVersion: 2
+        x: 184
+        y: 165
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: NES - Super Mario Bros - Item and Brick Blocks_131
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 166
+        width: 5
+        height: 4
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: QBlock_2
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UGBrickDebris_TR
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 120
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: QBlock_1
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UGQBlock_Hit
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 112
+        width: 16
+        height: 16
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UGQBlock_AfterHit
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 112
+        width: 16
+        height: 16
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UGBrick_1
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UGBrickDebris_TL
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 120
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UGBrickDebris_BL
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 112
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UGBrickDebris_BR
+      rect:
+        serializedVersion: 2
+        x: 312
+        y: 112
+        width: 8
+        height: 8
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UGBrick_HitCoin_0
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UGBrick_AfterHitCoin
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 112
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: QBlock_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UGBrick_0
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 112
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: UGQBlock_0
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 112
+        width: 16
+        height: 16
+      alignment: 2
+      pivot: {x: 0.5, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

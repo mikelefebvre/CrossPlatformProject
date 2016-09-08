@@ -5,9 +5,13 @@ public class Flower : MonoBehaviour {
 
     public GameObject player;
     int flowerValue = 1000;
+    public AudioClip powerUpClip;
+    public AudioClip powerUpPickupClip;
+
 	// Use this for initialization
 	void Start () {
-	
+        SoundManager.instance.playSingleSound(powerUpClip);
+
 	}
 	
 	// Update is called once per frame
@@ -23,6 +27,7 @@ public class Flower : MonoBehaviour {
             {
                 coll.gameObject.GetComponent<character>().isSuper = true;
                 coll.gameObject.GetComponent<Animator>().SetBool("IsSuper", true);
+                SoundManager.instance.playSingleSound(powerUpPickupClip);
                 GameManager.levelInstance.score += flowerValue;
                 Destroy(gameObject);
             }

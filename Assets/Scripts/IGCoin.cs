@@ -4,6 +4,7 @@ using System.Collections;
 public class IGCoin : MonoBehaviour {
 
     int coinValue = 200;
+    public AudioClip coinClip;
 
 	// Use this for initialization
 	void Start () {
@@ -19,6 +20,7 @@ public class IGCoin : MonoBehaviour {
     {
         if(coll.gameObject.tag == "Player")
         {
+            SoundManager.instance.playSingleSound(coinClip);
             GameManager.levelInstance.score += coinValue;
             GameManager.levelInstance.coins += 1;
             Destroy(gameObject);

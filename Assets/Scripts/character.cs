@@ -110,6 +110,14 @@ public class character : MonoBehaviour {
 
     }
 
+    void OnCollisionEnter2D(Collision2D coll)
+    {
+        if(coll.gameObject.tag == "Death")
+        {
+          
+        }
+    }
+
     void IsMarioSuper()
     {
         if(isSuper == false)

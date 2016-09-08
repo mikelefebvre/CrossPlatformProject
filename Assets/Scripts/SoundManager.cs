@@ -6,8 +6,10 @@ public class SoundManager : MonoBehaviour {
     static SoundManager _instance = null;
 
     public AudioSource sfxSource;
+    public AudioSource sfxSource2;
     public AudioSource musicSource;
 
+    int sourceHandler = 0;
     // Use this for initialization
     void Start () {
 
@@ -33,9 +35,20 @@ public class SoundManager : MonoBehaviour {
 
     public void playSingleSound(AudioClip clip)
     {
-        sfxSource.clip = clip;
+        if(sourceHandler % 2 == 0)
+        {
+            sfxSource.clip = clip;
 
-        sfxSource.Play();
+            sfxSource.Play();
+            sourceHandler++;
+        }
+        else if(sourceHandler % 2 == 1)
+        {
+            sfxSource2.clip = clip;
+
+            sfxSource2.Play();
+            sourceHandler++;
+        }
     }
 
     public void musicHandler(AudioClip clip)

@@ -1,9 +1,12 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour {
 
     public static GameManager levelInstance = null;
+
+    GameObject Player;
 
     public int score = 0;
     public int coins = 0;
@@ -32,4 +35,19 @@ public class GameManager : MonoBehaviour {
 	void Update () {
 	
 	}
+
+    public void spawnPlayer(int spawnLocation)
+    {
+        string spawnPointName = SceneManager.GetActiveScene().name + "_" + spawnLocation;
+
+        //Find where player should be spawned
+        Transform spawnPointTransform = GameObject.Find(spawnPointName).GetComponent<Transform>();
+
+        Instantiate(Player, spawnPointTransform.position, spawnPointTransform.rotation);
+    }
+
+    public void MarioDeath()
+    {
+
+    }
 }

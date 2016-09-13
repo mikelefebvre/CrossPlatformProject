@@ -4,7 +4,7 @@ using UnityEngine.UI;
 
 public class CanvasText : MonoBehaviour {
 
-    public GameObject player;
+    GameObject player;
     public Text CharacterBox;
     public Text ScoreBox;
     public Text CoinBox;
@@ -14,13 +14,11 @@ public class CanvasText : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
-	    
-	}
+        //CharacterBox.text = GameObject.FindGameObjectWithTag("Player").name;
+    }
 	
 	// Update is called once per frame
 	void Update () {
-        CharacterBox.text = GameObject.FindGameObjectWithTag("Player").name;
-
         textCon = GameManager.levelInstance.score.ToString("f0");
         ScoreBox.text = textCon;
 

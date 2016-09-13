@@ -6,13 +6,14 @@ public class GameManager : MonoBehaviour {
 
     public static GameManager levelInstance = null;
 
-    GameObject Player;
+    public GameObject Player;
 
     public int score = 0;
     public int coins = 0;
 
     void Awake()
     {
+
         if (!levelInstance)
         {
             levelInstance = this;
@@ -20,7 +21,7 @@ public class GameManager : MonoBehaviour {
         }
         else
         {
-            Destroy(gameObject);
+            DestroyImmediate(gameObject);
         }
 
     }
@@ -36,18 +37,19 @@ public class GameManager : MonoBehaviour {
 	
 	}
 
-    public void spawnPlayer(int spawnLocation)
+    public void spawnPlayer(GameObject startSpawn)
     {
-        string spawnPointName = SceneManager.GetActiveScene().name + "_" + spawnLocation;
-
-        //Find where player should be spawned
-        Transform spawnPointTransform = GameObject.Find(spawnPointName).GetComponent<Transform>();
-
-        Instantiate(Player, spawnPointTransform.position, spawnPointTransform.rotation);
+       Instantiate(Player, startSpawn.transform.position, startSpawn.transform.rotation);
     }
 
-    public void MarioDeath()
+    public void MarioDeath(GameObject player, int scenetoStart)
     {
+        Destroy(player);
+        SceneManager.LoadScene(scenetoStart);
+    }
 
+    public void LoadFirstLevel()
+    {
+        SceneManager.LoadScene(1);
     }
 }

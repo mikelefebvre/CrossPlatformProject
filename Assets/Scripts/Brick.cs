@@ -7,6 +7,7 @@ public class Brick : MonoBehaviour {
     public GameObject player;
     public AudioClip breakBrick;
     public AudioClip brickNotBreak;
+    public GameObject particles;
 
     void OnTriggerEnter2D(Collider2D coll)
     {
@@ -24,6 +25,7 @@ public class Brick : MonoBehaviour {
     void destroyIt()
     {
         GameManager.levelInstance.score += brickValue;
+        Instantiate(particles, gameObject.transform.position, gameObject.transform.rotation);
         Destroy(gameObject);
     }
 }
